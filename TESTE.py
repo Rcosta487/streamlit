@@ -11,10 +11,10 @@ from sklearn.preprocessing import PolynomialFeatures
 
 ano_vigente = pd.Timestamp.now().year
 
-server = 'BCSQLDELL2'
-database = 'SCF'
-username = 'RSANTOS'
-password = 'R4F43L'
+server = 'XXXXXXX'
+database = 'XXXXX'
+username = 'XXXXXX'
+password = 'XXXXXXX'
 cnxn = pyodbc.connect(
     'DRIVER={SQL Server};SERVER=' + server + ';DATABASE=' + database + ';UID=' + username + ';PWD=' + password)
 cursor = cnxn.cursor()
